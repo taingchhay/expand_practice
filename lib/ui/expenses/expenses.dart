@@ -41,8 +41,8 @@ class ExpenseItem extends StatelessWidget {
         return Icons.travel_explore;
       case Category.leisure:
         return Icons.holiday_village;
-      // case Category.work:
-      //   return Icons.work;
+      case Category.work:
+        return Icons.work;
     }
   }
 
